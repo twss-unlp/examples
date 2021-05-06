@@ -60,7 +60,8 @@
 
 ###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Andrés_Milla
 :Andrés_Milla rdf:type owl:NamedIndividual ,
-                       <http://xmlns.com/foaf/0.1/Person> .
+                       <http://xmlns.com/foaf/0.1/Person> ;
+              :attends :twss .
 
 
 ###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Carlos_Matias_Ruiz_Cheylat
