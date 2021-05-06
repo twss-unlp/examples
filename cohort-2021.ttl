@@ -9,6 +9,22 @@
 <https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl> rdf:type owl:Ontology .
 
 #################################################################
+#    Object Properties
+#################################################################
+
+###  http://xmlns.com/foaf/0.1/knows
+<http://xmlns.com/foaf/0.1/knows> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
 #    Classes
 #################################################################
 
@@ -20,9 +36,102 @@
 #    Individuals
 #################################################################
 
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Alejandro_Fernandez
+:Alejandro_Fernandez rdf:type owl:NamedIndividual ,
+                              <http://xmlns.com/foaf/0.1/Person> ;
+                      :Andrés_Milla ,
+                                                       :Carlos_Matias_Ruiz_Cheylat .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Andrés_Milla
+:Andrés_Milla rdf:type owl:NamedIndividual ,
+                       <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Carlos_Matias_Ruiz_Cheylat
+:Carlos_Matias_Ruiz_Cheylat rdf:type owl:NamedIndividual ,
+                                     <http://xmlns.com/foaf/0.1/Person> .
+
+
 ###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Diego_Torres
 :Diego_Torres rdf:type owl:NamedIndividual ,
                        <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Felipe_Dioguardi
+:Felipe_Dioguardi rdf:type owl:NamedIndividual ,
+                           <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Juan_Emir_Mazza
+:Juan_Emir_Mazza rdf:type owl:NamedIndividual ,
+                          <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Juan_Marascutti
+:Juan_Marascutti rdf:type owl:NamedIndividual ,
+                          <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Julian_Marques
+:Julian_Marques rdf:type owl:NamedIndividual ,
+                         <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Julieta_Rey_Crespo
+:Julieta_Rey_Crespo rdf:type owl:NamedIndividual ,
+                             <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Leonardo_Germán_Loza_Bonora
+:Leonardo_Germán_Loza_Bonora rdf:type owl:NamedIndividual ,
+                                      <http://xmlns.com/foaf/0.1/Person> ;
+                             <http://xmlns.com/foaf/0.1/name> "Leonardo German Loza Bonora" .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Leonel_Franco_Mandarino
+:Leonel_Franco_Mandarino rdf:type owl:NamedIndividual ,
+                                  <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Lorenzo_Handula
+:Lorenzo_Handula rdf:type owl:NamedIndividual ,
+                          <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Martin_Moschettoni
+:Martin_Moschettoni rdf:type owl:NamedIndividual ,
+                             <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Mauro_Gabriel_Hernández
+:Mauro_Gabriel_Hernández rdf:type owl:NamedIndividual ,
+                                  <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Milagros_Aylen_Jacinto
+:Milagros_Aylen_Jacinto rdf:type owl:NamedIndividual ,
+                                 <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Nicolas_Ruffolo
+:Nicolas_Ruffolo rdf:type owl:NamedIndividual ,
+                          <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Pablo_Daniel_Rey
+:Pablo_Daniel_Rey rdf:type owl:NamedIndividual ,
+                           <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Pilar_Acha_Altamiranda
+:Pilar_Acha_Altamiranda rdf:type owl:NamedIndividual ,
+                                 <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  https://raw.githubusercontent.com/twss-unlp/examples/main/cohort-2021.ttl#Ramiro_Lopes_Canadell
+:Ramiro_Lopes_Canadell rdf:type owl:NamedIndividual ,
+                                <http://xmlns.com/foaf/0.1/Person> .
 
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
